@@ -1,0 +1,37 @@
+footer {
+  background:  url('./images/birds.svg'),#2cb8e5;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+
+  .text-about {
+    font-size: 14px;
+  }
+
+  .copy-right {
+    background-color: #070707;
+  }
+
+  .btn-sm, .btn-link {
+    color: #343a40!important;
+    font-weight: 500;
+
+    &:hover {
+      color: #1b1b1b!important;
+    }
+  }
+
+  .f-14 {
+    font-size: 14px;
+  }
+}
+
+.footer-top {
+  svg {
+    fill: #2cb8e5;
+    height: 85px;
+    width: 100%;
+  }
+}
