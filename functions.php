@@ -10,7 +10,7 @@
    }
 
    function menus() {
-      register_nav_menu('primary', __('main menu', 'navbar_main'));
+      register_nav_menu('my-custom-menu', __('My Custom Menu'));
    }
 
    

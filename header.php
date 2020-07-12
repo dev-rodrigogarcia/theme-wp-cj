@@ -82,7 +82,7 @@
       
       <?php
          wp_nav_menu(array(
-            'theme_location' => 'navbar_main',
+            'theme_location' => 'my-custom-menu',
             'container_class' => 'collapse navbar-collapse',
             'container_id' => 'navbar_main',
             'menu_class' => 'ml-auto navbar-center navbar-nav'
