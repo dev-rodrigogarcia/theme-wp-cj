@@ -8,21 +8,12 @@
 </head>
 <body>
    <?php get_header(); ?>
-   <section class="title-jobs-section m-4">
+
+   <section class="title-search-section pt-5 pb-4">
       <div class="container">
-         <h2 class="title-jobs">
-            Vagas Recentes
-         </h2>
-
-         <div class="subhead-title-bg">
-            Vagas
-         </div>
-
-         <span class="separator"></span>
-
-         <p class="description-jobs">
-            Confira as últimas vagas nas principais empresas de Campinas e região e candidate-se gratuitamente.
-         </p>
+         <h1>
+            Você buscou por <strong>Nutricionista</strong> e conseguiu <strong>57</strong> resultados.
+         </h1>
       </div>
    </section>
 
@@ -352,15 +343,28 @@
    
                   <div class="d-none d-sm-block">
                      <div class="d-flex justify-content-center mt-1">
-                        <nav aria-label="Page navigation example">
-                           <ul class="pagination">
+                        <nav class="d-flex align-items-center" aria-label="">
+                           <ul class="pagination pagination-number">
                               <li class="page-item"><a class="page-link" href="#"><</a></li>
                               <li class="page-item"><a class="page-link" href="#">1</a></li>
-                              <li class="page-item">...</li>
-                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                           </ul>
+
+                           <span class="ellipse">
+                              ...
+                           </span>
+
+                           <ul class="pagination pagination-number">
+                              <li class="page-item"><a class="page-link page-actived" href="#">3</a></li>
                               <li class="page-item"><a class="page-link" href="#">4</a></li>
                               <li class="page-item"><a class="page-link" href="#">5</a></li>
-                              <li class="page-item">...</li>
+                              <li class="page-item"><a class="page-link" href="#">6</a></li>
+                           </ul>
+
+                           <span class="ellipse">
+                              ...
+                           </span>
+
+                           <ul class="pagination pagination-number">
                               <li class="page-item"><a class="page-link" href="#">10</a></li>
                               <li class="page-item"><a class="page-link" href="#">></a></li>
                            </ul>

@@ -1,0 +1,124 @@
+.single-job {
+   .top-bg-single-job {
+      background-color: #119ea8;
+      height: 100px;
+   }
+
+   .job-first-info {
+      margin-top: -60px;
+      background: #fff;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      padding: 25px 0;
+      position: relative;
+      border-radius: 15px;
+
+      .breadcrumb {
+         background-color: #ffffff;
+         font-size: 15px;
+         margin-bottom: 0px;
+
+         .breadcrumb-item {
+            a {
+               color: #343a40;
+               font-weight: 600;
+            }
+         }
+
+         .active {
+            color: #343a45;
+            font-weight: bolder;
+         }
+
+         .breadcrumb-item+.breadcrumb-item {
+            &::before {
+               content: "";
+               width: 0;
+               height: 0;
+               border-top: 4px solid transparent;
+               border-bottom: 4px solid transparent;
+               border-left: 4px solid #343a45;
+               margin-top: 7px;
+            }
+         }
+      }
+
+      .single-job-title {
+         font-size: 28px;
+         font-weight: 600;
+         line-height: 36px;
+         margin: 5px 0 10px;
+      }
+
+      .single-job-subhead {
+         font-size: 16px;
+         line-height: 36px;
+         margin: -10px 0 0 0;
+      }
+
+      .job-tag {
+         margin: 0 5px;
+         margin-bottom: 5px;
+         color: #FFF;
+         font-weight: 700;
+         font-size: 13px;
+   
+         padding: 6px 12px;
+         background-color: #4bb6bc;
+         border-radius: 15px;
+         min-width: 107px;
+   
+         svg {
+            margin-right: 5px;
+         }
+      }
+   }
+
+   .action-button-social {
+      a {
+         width: 40px;
+         height: 40px;
+         font-size: 25px;
+         color: #fff;
+         border-radius: 8px;
+         text-align: center;
+      }
+
+      a {
+         margin-right: 10px;
+      }
+
+      .apply-linkedin {
+         background-color: #0077b5;
+         border-color: #0077b5;
+      }
+
+      .apply-whatsapp {
+         background: #33aa58;
+         border-color: #33aa58;
+      }
+
+      .apply-facebook {
+         background-color: #3b5999;
+         border-color: #3b5999;
+      }
+   }
+
+   .job-body {
+      background: #fff;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      padding: 25px 0;
+      position: relative;
+      border-radius: 15px;
+
+      .job-subhead-detail {
+         font-size: 18px;
+         margin-bottom: 0;
+         color: #212529!important;
+         text-transform: uppercase;
+         font-family: Rubik;
+         letter-spacing: 0.6px;
+      }
+   }
+}
